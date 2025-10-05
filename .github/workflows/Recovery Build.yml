@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-12.1'
+        default: 'master'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'I003D'
+        default: 'darwin'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_I003D'
+        default: 'twrp_darwin'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
